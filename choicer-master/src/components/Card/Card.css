@@ -1,0 +1,46 @@
+.card {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 30px 35px;
+  color: var(--light-text);
+  background-color: var(--light-grey);
+  border-radius: 20px;
+  transition: all 0.3s ease;
+  cursor: pointer;
+}
+
+.card:hover {
+  background-color: var(--light-yellow);
+  color: var(--pleasant-grey);
+}
+
+.card:hover .card-title {
+  color: var(--dark-grey);
+}
+
+.card-title {
+  height: 64px;
+  color: var(--pleasant-grey);
+}
+
+.card-curator {
+  display: flex;
+  align-items: center;
+  margin-top: 15px;
+  margin-bottom: 25px;
+}
+
+.card-curator span {
+  margin: 0 10px 0 20px;
+}
+
+.card-description {
+  margin-bottom: 20px;
+}
+
+.card__footer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
